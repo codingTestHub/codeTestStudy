@@ -7,7 +7,9 @@ res = []
 # 기존 리스트가 1이 될때까지 반복하는 while문 생성
 while len(li) != 1:
     res.append(li.pop(0))
+    print(li)
     li.append(li.pop(0))
+    print(li)
 
 
 for j in res:
