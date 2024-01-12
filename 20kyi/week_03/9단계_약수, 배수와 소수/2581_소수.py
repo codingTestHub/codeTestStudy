@@ -7,9 +7,9 @@ N = int(input())
 arr = []    # 소수 리스트
 
 for i in range(M, N + 1):
-    if i == 1:
+    if i == 1:      # 1은 제외
         pass
-    elif i == 2:
+    elif i == 2:    # 2는 소수 중 짝수이면서 소수인 수
         arr.append(i)
     else:
         for j in range(2, i):
