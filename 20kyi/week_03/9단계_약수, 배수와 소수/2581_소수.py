@@ -12,10 +12,10 @@ for i in range(M, N + 1):
     elif i == 2:    # 2는 소수 중 짝수이면서 소수인 수
         arr.append(i)
     else:
-        for j in range(2, i):
+        for j in range(2, i):       # j를 2부터 i-1까지의 숫자로 반복
             if i % j == 0:
                 break
-            elif j == i - 1:
+            elif j == i - 1:        # i가 2부터 i-1까지의 모든 숫자로 나누어 떨어지지 않았다면 => 소수
                 arr.append(i)
 
 if len(arr) == 0:   # 소수가 없을 경우
