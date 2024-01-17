@@ -7,6 +7,6 @@ while s <= e: # 시작점이 끝점보다 커지면 끝나는 반복문
     mid = (s + e) // 2
     if mid ** 2 < n:
         s = mid + 1
-    else:ㅎ
+    else:
         e = mid - 1
 print(s)
