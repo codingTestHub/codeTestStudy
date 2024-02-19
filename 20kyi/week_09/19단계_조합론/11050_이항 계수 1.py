@@ -8,5 +8,5 @@ def factorial(t):
     return result
 
 
-res = factorial(n) // factorial(k) // factorial(n-k)
+res = factorial(n) // (factorial(k) * factorial(n-k))
 print(res)
