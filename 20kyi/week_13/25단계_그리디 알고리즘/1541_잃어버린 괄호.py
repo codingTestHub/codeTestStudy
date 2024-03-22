@@ -1,3 +1,4 @@
+#  괄호를 적절히 쳐서 이 식의 값을 최소로 만들려고 한다.
 import sys
 input = sys.stdin.readline
 
